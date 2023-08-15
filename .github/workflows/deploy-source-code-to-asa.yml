@@ -51,4 +51,5 @@ jobs:
           use-staging-deployment: false
           package: ${{ env.ASC_PACKAGE_PATH }}
           runtime-version: Java_11
+          environment-variables: -AAD_CLIENT_SECRET gmY8Q~awoazCuv6q9YtGPeMsPeP_YeOopqUsabM8 -AD_TENANT_ID 061fc120-a1ee-49b4-95c8-21805cd598d5 -AAD_CLIENT_ID 8964d102-4f13-4e0b-82f8-66e1c93b232c
           target-module: 
